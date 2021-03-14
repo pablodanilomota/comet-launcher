@@ -3,30 +3,33 @@ html, body {
 }
 
 html {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   height: 100%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 body {
-  overflow: hidden;
   height: inherit;
+  overflow: hidden;
 }
 
-canvas {
-  background-color: #272727;
-}
-
-button {
-  width: 75px;
-  height: 75px;
+#create-button {
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  height: 150px;
   border: none;
-  border-radius: 50%;
-  position:fixed;
   outline: none;
-  background-color: #aaa;
+  position:fixed;
+  border-radius: 50%;
+  background-color:#28a3ea;
 }
 
-button:hover {
+#create-button:hover {
   cursor: pointer;
-  background-color: #ccc;
+  background-color: #218ac7;
+}
+
+span {
+  color: #1f1f1f;
+  font-size: 7.5rem !important;
 }

@@ -69,8 +69,12 @@ const createBall = () => {
  balls.push(ball)
 }
 
+const clear = () => {
+ balls.splice(0, balls.length)
+}
+
 function loop() {
-   context.fillStyle = 'rgba(0, 0, 0, 0.25)'
+   context.fillStyle = 'rgba(31, 31, 31, 1)'
    context.fillRect(0, 0, width, height)
 
    balls.forEach((_, index) => {

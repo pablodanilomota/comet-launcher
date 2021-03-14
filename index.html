@@ -4,13 +4,23 @@
     <meta charset="utf-8">
     <title>Bouncing balls</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- External -->
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
 
   <body>
-    <button onclick="createBall()"></button>
+    <button id="create-button" onclick="createBall()">
+      <span class="material-icons">
+        lens_blur
+      </span>
+    </button>
     <canvas></canvas>
     
 
+    <!-- Javascript -->
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
