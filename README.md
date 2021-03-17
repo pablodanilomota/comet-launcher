@@ -1,41 +1,41 @@
 <p align="center">
-  <img alt="logo" width="120" title="logo" src=".github/logo.png" />
+  <img alt="logo" width="100%" title="logo" src=".github/comet.png" />
 </p>
 
-<h1 align="center">Bouncing Balls</h1>
+<h1 align="center">Comet Launcher</h1>
 
 <br />
 
 ## 🤖 Challenge
 
-Esse projeto foi realizado no [Challenge da FW7](https://github.com/fw7-solucoes/challenges/tree/master/challenge-9), um desafio com o propósito de estudo e gerar engajamento com a comunidade de desenvolvimento.
+Esse projeto foi realizado no [Challenge da FW7](https://github.com/fw7-solucoes/challenges/tree/master/challenge-10), um desafio com o propósito de estudo e gerar engajamento com a comunidade de desenvolvimento.
 
 <br />
 
 ## 🛸 Sobre
 
-Nesse desafio o objetivo era criar uma interface onde o usuário possa criar senhas de forma aleatória seguindo uma configuração pré estabelecida.
+Nesse desafio o objetivo é criar uma interface com um botão que gerasse uma bolinha aleatória e ser lançada na interface.
 
 ### Objetivos do challenge: 
 
-- Deve ser possível escolher a quantidade de caracteres a serem gerados. _(4 - 32)_
-- Deve ser possível permitir ou não letrar maiúsculas. _(A, B, C...)_
-- Deve ser possível permitir ou não números. _(1, 2, 3...)_
-- Deve ser possível permitir ou não símbolos. _(!, @, #...)_
-- Deve ser possível gerar uma senha aleatória.
+- Deve ser possível gerar uma bolinha.
+- Deve ser possível gerar uma cor aleatória.
+- Deve ser possível gerar um tamanho aleatório.
+- Deve ser possível gerar uma velocidade aleatória.
+- Deve ser possível gerar uma direção aleatória.
+- Deve seguir os princípios de colisão da física.
 
 <br />
 
 ## 🛰 Tecnologias e ferramentas utilizadas
 
-- Typescript
-- React
-- Styled components
-- Semantic ui
+- HTML
+- CSS
+- Javascript
 - Netlify
 
 <br />
 
-👾 Da uma conferida lá no <a href="https://password-generator-react-app.netlify.app/">Preview</a>
+👾 Da uma conferida lá no <a href="https://comet-launcher.netlify.app/">Preview</a>
 
 Valeus 🖖
