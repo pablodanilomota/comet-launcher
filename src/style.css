@@ -16,27 +16,30 @@ body {
   top: 10%;
   left: 7%;
   color: #1f1f1f;
-  width: 300px;
-  height: 75px;
+  width: 100px;
+  height: 100px;
   border: none;
   outline: none;
-  position:fixed;
-  font-size: 2rem !important;
+  position: fixed;
   font-weight: bold;
-  border-radius: 40px;
-  background-color:#28a3ea;
+  border-radius: 50%;
+  background-color:#727272;
+}
+
+span {
+  font-size: 5rem !important;
 }
 
 #create-button:hover {
   cursor: pointer;
-  background-color: #218ac7;
+  background-color: #727272;
   animation-name: colored;
   animation-duration: 1s;
 }
 
 @keyframes colored {
   20%{
-    color: #666
+    color: #555
   }
 
   40%{

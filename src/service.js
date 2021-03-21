@@ -29,7 +29,7 @@ const Ball = (x, y, speedX, speedY, color, size) => {
  /**
   * Draw.
   */
- const draw = () => {
+ const create = () => {
   context.beginPath()
   context.fillStyle = color
   context.arc(x, y, size, 0, 2 * Math.PI)
@@ -38,6 +38,6 @@ const Ball = (x, y, speedX, speedY, color, size) => {
 
  return {
   refreshPosition,
-  draw
+  create
  }
 }
